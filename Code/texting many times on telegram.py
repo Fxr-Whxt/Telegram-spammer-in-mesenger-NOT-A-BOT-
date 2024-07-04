@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 
-api_id = '22552017'                                                                                   
-api_hash = 'f98c95bbe3a69abca4f3dfc5c0c69876'                                                                                             
+api_id = ''         # here write your id  from telegram                                                                  
+api_hash = ''              # also here write your hash                                                                            
 
 phone_number = '+49 160 7521767'
 
