@@ -3,7 +3,7 @@ from telethon.sync import TelegramClient
 api_id = ''         # here write your id  from telegram                                                                  
 api_hash = ''              # also here write your hash                                                                            
 
-phone_number = '+49 160 7521767'
+phone_number = '' # here your number
 
 yr_target = str(input('your target? : ')) # here is the nickname of the person who will receive messages from you
 
