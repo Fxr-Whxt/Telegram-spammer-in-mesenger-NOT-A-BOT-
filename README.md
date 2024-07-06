@@ -34,7 +34,14 @@ So when you put all of that elements to script, run that script and that script 
 
 Also you can change that in code here:
 
-</b>
 
 <img src="assets/Снимок экрана от 2024-07-05 17-08-06.png">
 
+In stock script will sent 100 messages:
+
+You can change this parameter for sending more or a little of messages 
+
+Here you can change how many this script must sent:
+
+<img src="assets/Снимок экрана от 2024-07-07 00-10-00.png">
+</b>
