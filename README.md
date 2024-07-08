@@ -1,47 +1,43 @@
-# Telegram-spammer-in-mesenger-NOT-A-BOT-
-here i write a script that can spam many messages to people 
+# Telegram Spammer in Messenger (NOT A BOT)
 
-# ITS JUST TEST PROGRAM FOR BEST KNOWLEDGE OF LIBRARIES FOR TELEGRAM!!! 
+**Disclaimer: This is a test program designed for educational purposes to understand the libraries used for Telegram!**
 
-# Description:
+## Description
 
-this is a script that spam messages to a people
-all what you need is a your id and hash of your telegram acount AND your phonenumber
+This script allows you to spam messages to people on Telegram. All you need is your Telegram ID, hash, and phone number.
 
+## Prerequisites
 
+To get your Telegram ID and hash:
+1. Visit [telegram.org](https://telegram.org)
+2. Register a developer account to get your ID and hash
+3. You will also need your phone number associated with your Telegram account
 
-# Where you can ID and Hash have:
+## Setup
 
-You must visit a site named : telegram.org
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Fxr-Whxt/Telegram-spammer-in-messenger-NOT-A-BOT-.git
+    cd Telegram-spammer-in-messenger-NOT-A-BOT-
+    ```
 
-Registrate a development acc and get ID and Hash
+2. Install the required libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-and if you have that you just need to write a phone number
+3. Add your Telegram ID, hash, and phone number in the script.
 
-# Where you must put all elements in code :
+## Usage
 
-<img src="assets/Снимок экрана от 2024-07-05 17-03-00.png">
+Run the script and follow the prompts:
 
+1. **Account to send messages to**: Enter the username or ID of the recipient.
+2. **Message to repeat**: Enter the message you want to spam.
 
+By default, the script will send 100 messages. You can change this parameter in the code.
 
-<b>
-
-So when you put all of that elements to script, run that script and that script ask you 2 questions:
-
-1 : The account you want to send messages to 
-
-2: The message, that will repeat many times
-
-Also you can change that in code here:
-
-
-<img src="assets/Снимок экрана от 2024-07-05 17-08-06.png">
-
-In stock script will sent 100 messages:
-
-You can change this parameter for sending more or a little of messages 
-
-Here you can change how many this script must sent:
-
-<img src="assets/Снимок экрана от 2024-07-07 00-10-00.png">
-</b>
+### Example of changing parameters in the code:
+```python
+# Change the number of messages to be sent
+number_of_messages = 100  # Default is 100
